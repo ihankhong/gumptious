@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.breadcrumb-item {
+    font-size: .5rem;
+}
+
+.breadcrumb-item.active {
+    color: #2b5e50;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    /* display: inline-block;
+    padding-right: .5rem; */
+    color: #6c757d;
+    content: "->";
+}
