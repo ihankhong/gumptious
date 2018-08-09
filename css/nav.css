@@ -12,6 +12,11 @@ body {
 
 .menu {
     background-color: #2b5e50;
+    background: url(../image/bg-nav.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .menu.navbar-dark .navbar-nav .nav-link {

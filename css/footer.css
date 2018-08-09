@@ -5,7 +5,7 @@ footer {
     margin-top: 12.5rem;
     padding-top: 5.9375rem;
     padding-bottom: 3.4375rem;
-    background: url(../image/bg-footer.png) no-repeat center bottom;
+    background: url(../image/bg-footer.png) no-repeat left bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -19,6 +19,13 @@ footer .nav .nav-link {
 
 a[href^="tel:"],
 a[href^="mailto:"] {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 5.25rem;
+    padding-top: 1.3125rem;
+    border-top: 1px solid #779ea1;
+    letter-spacing: 2px;
 }

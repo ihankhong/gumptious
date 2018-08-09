@@ -1,7 +1,7 @@
 </article>
 <!-- content end -->
 <!-- footer start -->
-<footer class="m-t-200">
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -35,6 +35,11 @@
                     <a href="#" class="ml-auto"><img src="image/contact-us.png" class="img-fluid" alt="聯絡我們"></a>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p class="text-center mb-0">Copyright 2018 © Gumptious Technology Co All Rights Reserved.</p>
         </div>
     </div>
 </footer>
