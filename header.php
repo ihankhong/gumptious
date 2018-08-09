@@ -19,7 +19,7 @@
 	<!-- custom -->
 	<link href="css/nav.css" rel="stylesheet">
 	<link href="css/breadcrumb.css" rel="stylesheet">
-	<!-- <link href="css/app.css" rel="stylesheet"> -->
+	<link href="css/footer.css" rel="stylesheet">
 	<!-- <script src="js/app.js"></script> -->
 </head>
 <body>

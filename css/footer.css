@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+footer {
+    color: #fff;
+    margin-top: 12.5rem;
+    padding-top: 5.9375rem;
+    padding-bottom: 3.4375rem;
+    background: url(../image/bg-footer.png) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer .nav .nav-link {
+    color: #fff;
+    border-bottom: 1px solid #779ea1;
+}
+
+a[href^="tel:"],
+a[href^="mailto:"] {
+  color: #fff;
+  text-decoration: none;
+}
