@@ -1,5 +1,9 @@
+        <!-- content end -->
+        <div>
+    </section>
+    <!-- content wrapper end -->
 </article>
-<!-- content end -->
+<!-- article end -->
 <!-- footer start -->
 <footer>
     <div class="container">

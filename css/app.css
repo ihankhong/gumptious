@@ -1,1 +1,32 @@
 @charset "UTF-8";
+
+/* title start */
+.subtitle {
+    font-size: .5rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 3.3125rem;
+    border-bottom: 1px solid #d0cfd0;
+}
+/* title end */
+
+/* content start */
+.content {
+    width: 100%;
+    position: relative;
+    /* min-height: 100vh; */
+    transition: all 0.3s;
+}
+
+.content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #2b5e50;
+}
+
+.content h3:after {
+    content: '';
+    width: .5rem;
+    height: 1px;
+    background-color: #d0cfd0;
+}
+/* content end */

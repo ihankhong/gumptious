@@ -20,11 +20,15 @@
 	<link href="css/nav.css" rel="stylesheet">
 	<link href="css/breadcrumb.css" rel="stylesheet">
 	<link href="css/footer.css" rel="stylesheet">
-	<!-- <script src="js/app.js"></script> -->
+	<link href="css/app.css" rel="stylesheet">
+	<link href="css/sidebar.css" rel="stylesheet">
+	<script src="js/sidebar.js"></script>
+	<!-- <link href="css/offcanvas.css" rel="stylesheet"> -->
+	<!-- <script src="js/offcanvas.js"></script> -->
 </head>
 <body>
 <!-- topbar start -->
-<div id="top">
+<header id="top">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
@@ -60,10 +64,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+</header>
 <!-- topbar end -->
 <!-- navbar start -->
-<nav class="menu navbar navbar-expand-lg navbar-dark">
+<nav class="menu navbar navbar-expand-lg navbar-dark" role="navigation">
   	<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
 		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,5 +98,5 @@
 	</div>
 </nav>
 <!-- navbar end -->
-<!-- content start -->
+<!-- article start -->
 <article class="container">
