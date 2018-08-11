@@ -1,4 +1,6 @@
-
+<?php
+$nav = ['關於鼎億','產品介紹','型錄下載','獨特下載','減速機學堂','聯絡我們'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,24 +77,11 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">關於鼎億</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">產品介紹</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">型錄下載</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">獨特下載</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">減速機學堂</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">聯絡我們</a>
-				</li>
+				<?php foreach ($nav as $key => $item): ?>
+					<li class="nav-item<?php echo $key+1 === $active ? ' active' : ''; ?>">
+						<a class="nav-link" href="#"><?php echo $item; ?></a>
+					</li>
+				<?php endforeach; ?>
 			</ul>
 		</div>
 	</div>

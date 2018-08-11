@@ -1,4 +1,5 @@
 <?php
+$active = 1;
 require_once('layout/header.php');
 
 $breadcrumb = ['關於鼎億','公司介紹'];

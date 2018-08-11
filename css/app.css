@@ -61,4 +61,19 @@
     background-color: #f8f8f8;
     border: none;
 }
+
+.bg-download {
+    color: #fff;
+    background-color: #112923 !important;
+}
+
+a.bg-download:hover, 
+a.bg-download:focus,
+button.bg-download:hover,
+button.bg-download:focus {
+    color: #2b5e50;
+    background-color: #f8f8f8 !important;
+    border-color: #112923 !important;
+    border-width: 2px;
+}
 /* downlaod end */
