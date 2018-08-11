@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-/* title start */
-.subtitle {
-    font-size: .5rem;
-    padding-bottom: 1.25rem;
-    margin-bottom: 3.3125rem;
-    border-bottom: 1px solid #d0cfd0;
-}
-/* title end */
-
 /* content start */
 .content {
     width: 100%;
@@ -31,6 +22,29 @@
 }
 /* content end */
 
+/* table start */
+.table-responsive {
+    margin-bottom: 1.25rem;
+}
+
+.table-top-border-none th {
+    border-top: none;
+}
+
+.table thead th {
+    border-bottom-width: 3px;
+}
+/* table end */
+
+/* title start */
+.subtitle {
+    font-size: .5rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 3.3125rem;
+    border-bottom: 1px solid #d0cfd0;
+}
+/* title end */
+
 /* question start */
 .date {
     margin-bottom: 2.75rem;
@@ -41,3 +55,10 @@
     color: #2b5e50;
 }
 /* question end */
+
+/* download start */
+.card-download {
+    background-color: #f8f8f8;
+    border: none;
+}
+/* downlaod end */
