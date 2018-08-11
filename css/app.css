@@ -54,6 +54,75 @@
 .pagelink:hover {
     color: #2b5e50;
 }
+
+.solutionWrapper {
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    margin-bottom: 1.875rem;
+}
+
+.solutionWrapper .picWrapper img {
+    opacity: 0.5;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.solutionWrapper a:hover .picWrapper img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+.solutionWrapper .txtWrapper {
+    position: absolute;
+    width: 80%; 
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.solutionWrapper .txtWrapper h5 {
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.solutionWrapper .txtWrapper p {
+    margin-top: 0.625rem;
+    margin-bottom: 0;
+}
+
+.solutionWrapper span {
+    display: inline-block;
+    margin-top: 0.625rem;
+    padding: 0.3125rem 1.5rem;
+    border: 2px solid #fff;
+}
+
+.solutionWrapper a:hover span {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 1199px) {
+    .solutionWrapper .txtWrapper {
+        top: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .solutionWrapper .txtWrapper {
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+}
 /* question end */
 
 /* download start */

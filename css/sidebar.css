@@ -74,7 +74,7 @@
     transform: rotateY(100deg); /* Rotate sidebar vertically by 100 degrees. */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     /* Reversing the behavior of the sidebar: 
        it'll be rotated vertically and off canvas by default, 
        collapsing in on toggle button click with removal of 

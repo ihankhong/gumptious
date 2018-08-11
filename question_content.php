@@ -23,7 +23,7 @@ require_once('layout/wrapper.php');
 <h3>用一個簡單概念去想</h3>
 <p>其實就是【將馬達速度減低到合適速度，減低速度，增加馬達轉轉矩！】但要如何計算出最符合自己機台的減速比呢？</p>
 <div class="btn-group btn-block">
-    <a href="#" class="btn btn-link pagelink ml-auto"><i class="fa fa-caret-left fa-lg mr-2" aria-hidden="true"></i>減速機學堂</a>
+    <a href="question.php" class="btn btn-link pagelink ml-auto"><i class="fa fa-caret-left fa-lg mr-2" aria-hidden="true"></i>減速機學堂</a>
 </div>
 
 <?php

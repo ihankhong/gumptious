@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.Page {
+    margin-top: 3.8125rem;
+}
+
+.page-link {
+    color: #2b5e50;
+    border-color: #2b5e50;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: #2b5e50;
+    border-color: #2b5e50;
+}
+
+.page-item.active .page-link {
+    background-color: #2b5e50;
+    border-color: #2b5e50;
+}
+
+.page-item.disabled .page-link {
+    border-color: #2b5e50;
+}
