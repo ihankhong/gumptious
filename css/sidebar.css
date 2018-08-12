@@ -64,10 +64,6 @@
     color: #2b5e50;
 }
 
-#sidebar .icon {
-    padding-right: 1rem;
-}
-
 #sidebar.active {
     margin-left: -16rem;
     margin-right: 0;

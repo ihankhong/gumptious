@@ -1,9 +1,26 @@
 @charset "UTF-8";
 
+.icon {
+    padding-right: 1rem;
+}
+
+.bg-download {
+    color: #fff;
+    background-color: #112923 !important;
+}
+
+.bg-reset {
+    background-color: #cfe0d6;
+}
+
+.bg-submit {
+    color: #fff;
+    background-color: #2b5e50;
+}
+
 /* content start */
 .content {
     width: 100%;
-    /* min-height: 100vh; */
     transition: all 0.3s;
 }
 
@@ -131,11 +148,6 @@
     border: none;
 }
 
-.bg-download {
-    color: #fff;
-    background-color: #112923 !important;
-}
-
 a.bg-download:hover, 
 a.bg-download:focus,
 button.bg-download:hover,
@@ -216,3 +228,36 @@ button.bg-download:focus {
     color: #c2c2c2;
 }
 /* news end */
+
+/* contact us start */
+.contactWrapper {
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.contactWrapper .check {
+    color: #6e757c;
+}
+
+.contactWrapper .btns {
+    margin-top: 3.125rem;
+}
+
+.mapWrapper {
+    margin-top: 3rem;
+}
+
+.mapWrapper .company {
+    color: #2b5e50;
+}
+
+.mapWrapper .addressWrapper p {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    .mapWrapper .picWrapper {
+        margin-bottom: 1.25rem;
+    }
+}
+/* contact us end */
