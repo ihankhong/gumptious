@@ -13,7 +13,7 @@ $sidebar = [
     'items' => ['最新消息','公司介紹','發展沿革','理念/使命/願景'],
     'active' => 1
 ];
-require_once('layout/wrapper.php');
+require_once('layout/content.php');
 ?>
 <h3>2018深圳國際機器人展圓滿落幕，感謝客戶熱情參與與回饋！</h3>
 <p class="date text-right">2018/04/12</p>
@@ -28,5 +28,6 @@ require_once('layout/wrapper.php');
     <a href="news.php" class="btn btn-link pagelink ml-auto"><i class="fa fa-caret-left fa-lg mr-2" aria-hidden="true"></i>回最新消息</a>
 </div>
 <?php
+require_once('layout/content_end.php');
 require_once('layout/footer.php');
 ?>

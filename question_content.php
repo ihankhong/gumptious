@@ -13,7 +13,7 @@ $sidebar = [
     'items' => ['常見問題','安裝教學','選購問題','維修問題'],
     'active' => 1
 ];
-require_once('layout/wrapper.php');
+require_once('layout/content.php');
 ?>
 <h3>減速機比數代表什麼意思？該如何計算減速比？</h3>
 <p class="date text-right">2018/04/12</p>
@@ -26,5 +26,6 @@ require_once('layout/wrapper.php');
     <a href="question.php" class="btn btn-link pagelink ml-auto"><i class="fa fa-caret-left fa-lg mr-2" aria-hidden="true"></i>減速機學堂</a>
 </div>
 <?php
+require_once('layout/content_end.php');
 require_once('layout/footer.php');
 ?>

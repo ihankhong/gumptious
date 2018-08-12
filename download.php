@@ -13,7 +13,7 @@ $sidebar = [
     'items' => ['型錄','GNP系列','NT系列','WS系列','GNDU系列'],
     'active' => 2
 ];
-require_once('layout/wrapper.php');
+require_once('layout/content.php');
 ?>
 <h3>適用馬達瓦數</h3>
 <div class="card card-download">
@@ -137,5 +137,6 @@ require_once('layout/wrapper.php');
     </div>
 </div>
 <?php
+require_once('layout/content_end.php');
 require_once('layout/footer.php');
 ?>

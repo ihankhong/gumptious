@@ -13,7 +13,7 @@ $sidebar = [
     'items' => ['常見問題','安裝教學','選購問題','維修問題'],
     'active' => 1
 ];
-require_once('layout/wrapper.php');
+require_once('layout/content.php');
 ?>
 <div class="row">
     <div class="col-md-6">
@@ -75,5 +75,6 @@ require_once('layout/wrapper.php');
 </div>
 <?php
 require_once('layout/pagination.php');
+require_once('layout/content_end.php');
 require_once('layout/footer.php');
 ?>

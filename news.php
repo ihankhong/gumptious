@@ -13,7 +13,7 @@ $sidebar = [
     'items' => ['最新消息','公司介紹','發展沿革','理念/使命/願景'],
     'active' => 1
 ];
-require_once('layout/wrapper.php');
+require_once('layout/content.php');
 ?>
 <div class="row">
     <div class="col-md-6">
@@ -103,5 +103,6 @@ require_once('layout/wrapper.php');
 </div>
 <?php
 require_once('layout/pagination.php');
+require_once('layout/content_end.php');
 require_once('layout/footer.php');
 ?>
