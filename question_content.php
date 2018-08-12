@@ -25,7 +25,6 @@ require_once('layout/wrapper.php');
 <div class="btn-group btn-block">
     <a href="question.php" class="btn btn-link pagelink ml-auto"><i class="fa fa-caret-left fa-lg mr-2" aria-hidden="true"></i>減速機學堂</a>
 </div>
-
 <?php
 require_once('layout/footer.php');
 ?>
