@@ -25,7 +25,10 @@ $nav = ['關於鼎億','產品介紹','型錄下載','獨特下載','減速機�
 	<link href="css/app.css" rel="stylesheet">
 	<link href="css/sidebar.css" rel="stylesheet">
 	<link href="css/pagination.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/pbxslider.css" rel="stylesheet">
 	<script src="js/sidebar.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
 	<!-- <link href="css/offcanvas.css" rel="stylesheet"> -->
 	<!-- <script src="js/offcanvas.js"></script> -->
 </head>

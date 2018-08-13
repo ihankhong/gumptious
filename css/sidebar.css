@@ -46,7 +46,7 @@
 #sidebar {
     min-width: 16rem;
     max-width: 16rem;
-    max-height: 50vh;
+    /* max-height: 50vh; */
     padding: 2rem;
     margin-right: 1.25rem;
     background: #f4f1ee;

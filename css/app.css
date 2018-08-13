@@ -261,3 +261,27 @@ button.bg-download:focus {
     }
 }
 /* contact us end */
+
+/* product start */
+.productTextWrapper h3 {
+    color: #2b5e50;
+}
+
+.productTextWrapper p {
+    margin-bottom: 0.5rem;
+}
+
+.productBtnWrapper {
+    margin-top: 3rem;
+}
+
+.productBtnWrapper .online-btn {
+    color: #fff;
+    background-color: #439ede;
+}
+
+.productBtnWrapper .trial-btn {
+    color: #fff;
+    background-color: #34302c;
+}
+/* product end */

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.productSliderWrapper .bx-wrapper {
+    margin:0 auto 1.25rem;
+}
+
+.productControlWrapper .bx-pager a {
+    border: 1px solid #d0cfd0;
+}
+
+.productControlWrapper .bx-pager a.active {
+    border: 1px solid #2b5e50;
+}
