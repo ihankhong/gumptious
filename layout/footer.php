@@ -1,5 +1,3 @@
-</article>
-<!-- article end -->
 <!-- footer start -->
 <footer>
     <div class="container">

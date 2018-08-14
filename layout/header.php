@@ -98,5 +98,3 @@ $nav = [
 	</div>
 </nav>
 <!-- navbar end -->
-<!-- article start -->
-<article class="container">
