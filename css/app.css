@@ -284,4 +284,86 @@ button.bg-download:focus {
     color: #fff;
     background-color: #34302c;
 }
+
+.productTabWrapper {
+    margin-top: 2rem;
+}
+
+.productTabWrapper .pillsWrapper {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #d0cfd0;
+}
+
+.productTabWrapper .pillsWrapper .nav-pills {
+    margin-bottom: 2rem;
+}
+
+.productTabWrapper .nav-pills .nav-link {
+    color: #2b5e50;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-right: 1px solid #112923;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.productTabWrapper .nav-pills .nav-item:first-child .nav-link {
+    border-left: 1px solid #112923;
+}
+
+.productTabWrapper .nav-pills .nav-link.active, 
+.productTabWrapper .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2b5e50;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.productTabWrapper .textWrapper {
+    margin-top: 4rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+@media (max-width: 1199px) {
+    .productBtnWrapper .online-btn,
+    .productBtnWrapper .trial-btn {
+        display: block;
+    }
+
+    .productBtnWrapper .online-btn {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .productBtnWrapper .online-btn,
+    .productBtnWrapper .trial-btn {
+        display: inline-block;
+    }
+
+    .productBtnWrapper .online-btn {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .productBtnWrapper .online-btn,
+    .productBtnWrapper .trial-btn {
+        display: block;
+    }
+
+    .productBtnWrapper .online-btn {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .productTabWrapper .nav-pills .nav-link {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+}
 /* product end */

@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-7">
-        <?php require_once('layout/product/bxslider.php'); ?>
+        <?php require_once('product/bxslider.php'); ?>
     </div>
     <div class="col-md-5">
         <div class="productTextWrapper">
@@ -13,9 +13,9 @@
             <p>6.適用於各廠牌伺服電機。</p>
             <p>7.另有軸矩加長型，適用於齒排轉動。</p>
         </div>
-        <div class="productBtnWrapper d-inline-flex flex-row text-center">
-            <a class="btn btn-link online-btn px-3 col" href="#" role="button"><i class="fa fa-commenting-o mr-1" aria-hidden="true"></i>線上諮詢 立即回覆</a>
-            <a class="btn btn-link trial-btn px-3 col" href="#" role="button"><i class="fa fa-chevron-circle-right mr-1" aria-hidden="true"></i>前往試算</a>
+        <div class="productBtnWrapper text-center">
+            <a class="btn btn-link online-btn px-3" href="#" role="button"><i class="fa fa-commenting-o mr-1" aria-hidden="true"></i>線上諮詢 立即回覆</a>
+            <a class="btn btn-link trial-btn px-3" href="#" role="button"><i class="fa fa-chevron-circle-right mr-1" aria-hidden="true"></i>前往試算</a>
         </div>
     </div>
 </div>
