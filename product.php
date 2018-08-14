@@ -2,7 +2,10 @@
 $active = 2;
 require_once('layout/header.php');
 
-$breadcrumb = ['產品介紹','多枚行星減速機-GNP系列'];
+$breadcrumb = [
+    ['title' => '產品介紹', 'link' => 'product.php'],
+    ['title' => '多枚行星減速機-GNP系列', 'link' => '#']
+];
 require_once('layout/breadcrumb.php');
 
 $title = ['title' => '多枚行星減速機-GNP系列', 'subtitle' => 'Planetary Gearbox - GNP Series'];
@@ -10,7 +13,17 @@ require_once('layout/title.php');
 
 $sidebar = [
     'title' => '產品介紹',
-    'items' => ['動力推引器','WS升降機購系列','90度轉向器-WS系列','中空旋轉平台-NT系列','多枚行星減速機-GNP系列','多枚行星減速機-GNDU系列','諧波減速機-GCSG系列','諧波減速機-GSHG系列(中空軸)','諧波減速機-GCSD14'],
+    'items' => [
+        ['title' => '動力推引器', 'link' => '#'],
+        ['title' => 'WS升降機購系列', 'link' => '#'],
+        ['title' => '90度轉向器-WS系列', 'link' => '#'],
+        ['title' => '中空旋轉平台-NT系列', 'link' => '#'],
+        ['title' => '多枚行星減速機-GNP系列', 'link' => 'product.php'],
+        ['title' => '多枚行星減速機-GNDU系列', 'link' => '#'],
+        ['title' => '諧波減速機-GCSG系列', 'link' => '#'],
+        ['title' => '諧波減速機-GSHG系列(中空軸)', 'link' => '#'],
+        ['title' => '諧波減速機-GCSD14', 'link' => '#'],
+    ],
     'active' => 5
 ];
 require_once('layout/content.php');

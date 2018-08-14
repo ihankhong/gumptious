@@ -2,7 +2,10 @@
 $active = 3;
 require_once('layout/header.php');
 
-$breadcrumb = ['型錄下載','GNP系列'];
+$breadcrumb = [
+    ['title' => '型錄下載', 'link' => 'download.php'],
+    ['title' => 'GNP系列', 'link' => '#']
+];
 require_once('layout/breadcrumb.php');
 
 $title = ['title' => 'GNP系列', 'subtitle' => 'Download'];
@@ -10,7 +13,13 @@ require_once('layout/title.php');
 
 $sidebar = [
     'title' => '下載專區',
-    'items' => ['型錄','GNP系列','NT系列','WS系列','GNDU系列'],
+    'items' => [
+        ['title' => '型錄', 'link' => '#'],
+        ['title' => 'GNP系列', 'link' => 'download.php'],
+        ['title' => 'NT系列', 'link' => '#'],
+        ['title' => 'WS系列', 'link' => '#'],
+        ['title' => 'GNDU系列', 'link' => '#'],
+    ],
     'active' => 2
 ];
 require_once('layout/content.php');

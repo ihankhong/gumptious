@@ -2,7 +2,10 @@
 $active = 5;
 require_once('layout/header.php');
 
-$breadcrumb = ['減速機學堂','常見問題'];
+$breadcrumb = [
+    ['title' => '減速機學堂', 'link' => 'question.php'],
+    ['title' => '常見問題', 'link' => '#']
+];
 require_once('layout/breadcrumb.php');
 
 $title = ['title' => '常見問題', 'subtitle' => 'Q&A'];
@@ -10,7 +13,12 @@ require_once('layout/title.php');
 
 $sidebar = [
     'title' => '減速機學堂',
-    'items' => ['常見問題','安裝教學','選購問題','維修問題'],
+    'items' => [
+        ['title' => '常見問題', 'link' => 'question.php'],
+        ['title' => '安裝教學', 'link' => '#'],
+        ['title' => '選購問題', 'link' => '#'],
+        ['title' => '維修問題', 'link' => '#'],
+    ],
     'active' => 1
 ];
 require_once('layout/content.php');

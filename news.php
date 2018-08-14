@@ -2,7 +2,10 @@
 $active = 1;
 require_once('layout/header.php');
 
-$breadcrumb = ['關於鼎億','最新消息'];
+$breadcrumb = [
+    ['title' => '關於鼎億', 'link' => 'company.php'],
+    ['title' => '最新消息', 'link' => '#']
+];
 require_once('layout/breadcrumb.php');
 
 $title = ['title' => '最新消息', 'subtitle' => 'News'];
@@ -10,7 +13,12 @@ require_once('layout/title.php');
 
 $sidebar = [
     'title' => '關於鼎億',
-    'items' => ['最新消息','公司介紹','發展沿革','理念/使命/願景'],
+    'items' => [
+        ['title' => '最新消息', 'link' => 'news.php'],
+        ['title' => '公司介紹', 'link' => 'company.php'],
+        ['title' => '發展沿革', 'link' => '#'],
+        ['title' => '理念/使命/願景', 'link' => '#'],
+    ],
     'active' => 1
 ];
 require_once('layout/content.php');

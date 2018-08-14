@@ -2,7 +2,9 @@
 $active = 6;
 require_once('layout/header.php');
 
-$breadcrumb = ['聯絡我們'];
+$breadcrumb = [
+    ['title' => '聯絡我們', 'link' => 'contact_us.php']
+];
 require_once('layout/breadcrumb.php');
 
 $title = ['title' => '聯絡我們', 'subtitle' => 'Contact Us'];

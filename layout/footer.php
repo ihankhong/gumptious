@@ -5,23 +5,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <a href="#"><img src="image/logo-white.png" class="img-fluid" alt="Footer LOGO"></a>
+                <a href="index.php"><img src="image/logo-white.png" class="img-fluid" alt="Footer LOGO"></a>
                 <p class="mt-3">鼎億有限公司專業從事減速機的研發、生產、設計，是精密機械動作元件的供應者，我們擁有豐富的經驗協助客戶將減速機導入機械產品中。</p>
             </div>
             <div class="col-md-4">
                 <h4>MENU</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link pl-0 active" href="#">關於鼎億</a>
+                        <a class="nav-link pl-0 active" href="company.php">關於鼎億</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-0" href="#">產品介紹</a>
+                        <a class="nav-link pl-0" href="product.php">產品介紹</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-0" href="#">型錄下載</a>
+                        <a class="nav-link pl-0" href="download.php">型錄下載</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pl-0" href="#">聯絡我們</a>
+                        <a class="nav-link pl-0" href="contact_us.php">聯絡我們</a>
                     </li>
                 </ul>
             </div>

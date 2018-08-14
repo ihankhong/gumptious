@@ -1,5 +1,12 @@
 <?php
-$nav = ['關於鼎億','產品介紹','型錄下載','獨特下載','減速機學堂','聯絡我們'];
+$nav = [
+	['title' => '關於鼎億', 'link' => 'company.php'],
+	['title' => '產品介紹', 'link' => 'product.php'],
+	['title' => '型錄下載', 'link' => 'download.php'],
+	['title' => '獨特下載', 'link' => '#'],
+	['title' => '減速機學堂', 'link' => 'question.php'],
+	['title' => '聯絡我們', 'link' => 'contact_us.php'],
+];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +45,7 @@ $nav = ['關於鼎億','產品介紹','型錄下載','獨特下載','減速機�
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<a href="#"><img src="image/logo.png" class="img-fluid" alt="LOGO"></a>
+				<a href="index.php"><img src="image/logo.png" class="img-fluid" alt="LOGO"></a>
 			</div>
 			<div class="col-md-7">
 				<div class="d-sm-flex d-block flex-sm-nowrap">
@@ -83,7 +90,7 @@ $nav = ['關於鼎億','產品介紹','型錄下載','獨特下載','減速機�
 			<ul class="navbar-nav">
 				<?php foreach ($nav as $key => $item): ?>
 					<li class="nav-item<?php echo $key+1 === $active ? ' active' : ''; ?>">
-						<a class="nav-link" href="#"><?php echo $item; ?></a>
+						<a class="nav-link" href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a>
 					</li>
 				<?php endforeach; ?>
 			</ul>
