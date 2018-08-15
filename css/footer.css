@@ -29,3 +29,14 @@ a[href^="mailto:"] {
     border-top: 1px solid #779ea1;
     letter-spacing: 2px;
 }
+
+@media (max-width: 767px) {
+    footer .row > div {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.625rem;
+    }
+
+    footer .row > div:first-child {
+        border-bottom: 1px dotted #f8f8f8;
+    }
+}

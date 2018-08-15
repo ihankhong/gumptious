@@ -30,7 +30,7 @@
                 <p class="mb-1">電話：<a href="tel:04-24919100">04-24919100</a></p>
                 <p>信箱：<a href="mailto:sales@gumptious.org">sales@gumptious.org</a></p>
                 <div class="d-flex">
-                    <a href="#" class="ml-auto"><img src="image/contact-us.png" class="img-fluid" alt="聯絡我們"></a>
+                    <a href="contact_us.php" class="ml-auto"><img src="image/contact-us.png" class="img-fluid" alt="聯絡我們"></a>
                 </div>
             </div>
         </div>
