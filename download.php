@@ -1,6 +1,7 @@
 <?php
 $active = 3;
 require_once('layout/header.php');
+require_once('layout/article.php');
 
 $breadcrumb = [
     ['title' => '型錄下載', 'link' => 'download.php'],
@@ -147,5 +148,6 @@ require_once('layout/content.php');
 </div>
 <?php
 require_once('layout/content_end.php');
+require_once('layout/article_end.php');
 require_once('layout/footer.php');
 ?>

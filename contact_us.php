@@ -1,7 +1,10 @@
 <?php
 $active = 6;
 require_once('layout/header.php');
-
+?>
+<!-- article start -->
+<article class="container">
+<?php
 $breadcrumb = [
     ['title' => '聯絡我們', 'link' => 'contact_us.php']
 ];
@@ -10,8 +13,6 @@ require_once('layout/breadcrumb.php');
 $title = ['title' => '聯絡我們', 'subtitle' => 'Contact Us'];
 require_once('layout/title.php');
 ?>
-<!-- article start -->
-<article class="container">
     <!-- content wrapper start -->
     <div class="wrapper">
         <!-- content start -->

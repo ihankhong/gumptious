@@ -1,6 +1,7 @@
 <?php
 $active = 5;
 require_once('layout/header.php');
+require_once('layout/article.php');
 
 $breadcrumb = [
     ['title' => '減速機學堂', 'link' => 'question.php'],
@@ -35,5 +36,6 @@ require_once('layout/content.php');
 </div>
 <?php
 require_once('layout/content_end.php');
+require_once('layout/article_end.php');
 require_once('layout/footer.php');
 ?>

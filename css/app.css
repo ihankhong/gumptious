@@ -527,3 +527,155 @@ button.bg-download:focus {
     }
 }
 /* home-studyMd end */
+
+/* home-productMd start */
+.productMd {
+    margin-bottom: 2.5rem;
+}
+
+.productMd .title {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.productMd .title .text {
+    position: relative;
+    z-index: 2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #fff;
+}
+
+.productMd .title:before {
+    content: '';
+    display: block;
+    width: 26%;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 36.6%;
+    border-top: 2px solid #212529;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.productMd .title:after {
+    content: '';
+    display: block;
+    width: 36%;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 10.6%;
+    border-top: 2px solid #212529;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.productMd .card {
+    border: none;
+    border-radius: 0;
+}
+
+.productMd .card .card-body {
+    padding: 1.5rem;
+}
+
+.productMd .card p.card-text {
+    margin-bottom: 1.25rem;
+}
+
+.productMd .card a.btn {
+    color: #fff;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.275rem;
+    padding-bottom: 0.275rem;
+    background-color: #34302c;
+    border-radius: 0;
+}
+
+.productMd .carousel-control-next, 
+.productMd .carousel-control-prev {
+    width: 10%;
+}
+
+.productMd .carousel-control-next-icon, 
+.productMd .carousel-control-prev-icon {
+    padding: 12%;
+    background-color: #212529;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    /* show 3 items */
+    .productMd .carousel-inner .active,
+    .productMd .carousel-inner .active + .carousel-item,
+    .productMd .carousel-inner .active + .carousel-item + .carousel-item,
+    .productMd .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .productMd .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .productMd .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .productMd .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .productMd .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .productMd .carousel-inner .carousel-item-next,
+    .productMd .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .productMd .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .productMd .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .productMd .carousel-item-next.carousel-item-left + .carousel-item,
+    .productMd .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .productMd .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .productMd .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .productMd .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .productMd .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .productMd .carousel-item-prev.carousel-item-right + .carousel-item,
+    .productMd .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .productMd .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* home-productMd end */

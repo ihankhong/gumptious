@@ -1,6 +1,7 @@
 <?php
 $active = 1;
 require_once('layout/header.php');
+require_once('layout/article.php');
 
 $breadcrumb = [
     ['title' => '關於鼎億', 'link' => 'company.php'],
@@ -35,5 +36,6 @@ require_once('layout/content.php');
 <img src="image/page/company/2.png" class="img-fluid" alt="Company Banner 2">
 <?php
 require_once('layout/content_end.php');
+require_once('layout/article_end.php');
 require_once('layout/footer.php');
 ?>

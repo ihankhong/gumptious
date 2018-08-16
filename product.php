@@ -1,6 +1,7 @@
 <?php
 $active = 2;
 require_once('layout/header.php');
+require_once('layout/article.php');
 
 $breadcrumb = [
     ['title' => '產品介紹', 'link' => 'product.php'],
@@ -57,5 +58,6 @@ require_once('product/index.php');
 </section>
 <?php
 require_once('layout/content_end.php');
+require_once('layout/article_end.php');
 require_once('layout/footer.php');
 ?>
