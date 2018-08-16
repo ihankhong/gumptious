@@ -36,8 +36,6 @@ $nav = [
 	<link href="css/pbxslider.css" rel="stylesheet">
 	<script src="js/sidebar.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
-	<!-- <link href="css/offcanvas.css" rel="stylesheet"> -->
-	<!-- <script src="js/offcanvas.js"></script> -->
 </head>
 <body>
 <!-- topbar start -->
@@ -49,7 +47,7 @@ $nav = [
 			</div>
 			<div class="col-md-7">
 				<div class="d-sm-flex d-block flex-sm-nowrap">
-					<ul class="nav mr-auto">
+					<ul class="nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-link active" href="#"><img src="image/facebook.png" class="img-fluid" width="32" alt="Facebook"></a>
 						</li>
@@ -60,18 +58,18 @@ $nav = [
 							<a class="nav-link" href="#"><img src="image/google-plus.png" class="img-fluid" width="32" alt="Google Plus"></a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">繁體中文</a>
+							<a class="nav-link dropdown-toggle mt-1" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">繁體中文</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#">繁體中文</a>
-								<a class="dropdown-item" href="#">English</a>
+								<a class="dropdown-item" href="#">简体中文</a>
+								<a class="dropdown-item" href="#">ENGLISH</a>
 							</div>
 						</li>
 					</ul>
 					<form class="form-inline">
-						<label for="search" class="mr-sm-2">搜尋</label>
+						<label for="search" class="mx-sm-2">搜尋</label>
 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<img src="image/search.png" class="img-fluid search-btn" alt="Search">
-						<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+						<!-- <a href="#"><img src="image/search.png" class="img-fluid search-btn" alt="Search"></a> -->
+						<button class="btn btn-link p-0" type="submit"><img src="image/search.png" class="img-fluid search-btn" alt="Search"></button>
 					</form>
 				</div>
 			</div>

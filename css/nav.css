@@ -10,6 +10,12 @@ body {
     background-color: #cfe0d6;
 }
 
+#top .nav .nav-link {
+    color: #212529;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .menu {
     background-color: #2b5e50;
     background: url(../image/bg-nav.png) no-repeat center center;

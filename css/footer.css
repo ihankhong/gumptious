@@ -17,6 +17,10 @@ footer .nav .nav-link {
     border-bottom: 1px solid #779ea1;
 }
 
+footer .nav .nav-link:focus {
+    color: #b0bb5c;
+}
+
 a[href^="tel:"],
 a[href^="mailto:"] {
     color: #fff;
