@@ -531,6 +531,7 @@ button.bg-download:focus {
 /* home-productMd start */
 .productMd {
     margin-bottom: 2.5rem;
+    text-align: center;
 }
 
 .productMd .title {
@@ -593,10 +594,7 @@ button.bg-download:focus {
 
 .productMd .card a.btn {
     color: #fff;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    padding-top: 0.275rem;
-    padding-bottom: 0.275rem;
+    padding: 0.275rem 1.25rem;
     background-color: #34302c;
     border-radius: 0;
 }
@@ -611,6 +609,28 @@ button.bg-download:focus {
     padding: 12%;
     background-color: #212529;
     border-radius: 50%;
+}
+
+.productMd .pMore-btn {
+    color: #fff;
+    margin-top: 1.25rem;
+    padding: 0.275rem 1.25rem;
+    background-color: #a7a7a7;
+}
+
+.productMd .pMore-btn:hover {
+    text-decoration: none;
+    background-color: #6f9fa0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .productMd .title:before {
+        width: 36%;
+    }
+
+    .productMd .title:after {
+        width: 46%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -676,6 +696,36 @@ button.bg-download:focus {
         visibility: visible;
         display: block;
         visibility: visible;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .productMd .title:before {
+        width: 46%;
+    }
+
+    .productMd .title:after {
+        width: 56%;
+    }
+}
+
+@media (max-width: 575px) {
+    .productMd .title:before {
+        width: 56%;
+    }
+
+    .productMd .title:after {
+        width: 66%;
+    }
+}
+
+@media (max-width: 320px) {
+    .productMd .title:before {
+        width: 60%;
+    }
+
+    .productMd .title:after {
+        width: 70%;
     }
 }
 /* home-productMd end */

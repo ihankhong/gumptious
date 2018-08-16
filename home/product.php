@@ -87,6 +87,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <a class="btn btn-link pMore-btn" href="product.php" role="button">更多產品<i class="fa fa-chevron-right pl-2" aria-hidden="true"></i></a>
     </div>
 </section>
 <script>
