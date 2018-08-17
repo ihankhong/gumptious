@@ -25,6 +25,10 @@ body {
     -o-background-size: cover;
 }
 
+.menu .navbar-brand {
+    display: none;        
+}
+
 .menu.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-size: 1.25rem;
@@ -36,9 +40,46 @@ body {
     border-bottom: 4px solid #d7e468;
 }
 
+.topNav {
+    display: none;
+}
+
+.topNav .dropdown-menu {
+    border: none;
+    background-color: transparent;
+}
+
+.topNav .dropdown-menu .dropdown-item {
+    color: #fff;
+    text-align: center;
+}
+
+.topNav .searchWrapper .search-btn {
+    color: #fff;
+    background-color: #225652;
+}
+
+
+
+
 @media (min-width: 992px) {
     .menu.navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #top {
+        display: none;
+    }
+
+    .menu .navbar-brand,
+    .topNav {
+        display: block;
+    }
+
+    .menu .navbar-nav .nav-link {
+        text-align: center;
     }
 }

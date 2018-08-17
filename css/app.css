@@ -734,7 +734,7 @@ button.bg-download:focus {
 /* contactUsMd start */
 .contactUsMd {
     position: absolute;
-    top: 90px;
+    top: 160px;
     right: 0;
     overflow: hidden;
 }
@@ -751,10 +751,7 @@ button.bg-download:focus {
 }
 
 .contactUsMd .contactUs-box  .contactus-icon {
-    /* background-color: #1ab394; */
     position: absolute;
-    /* padding: 7px 10px 7px 13px; */
-    /* border-radius: 20px 0 0 20px; */
     font-size: 16px;
     top: 0;
     left: 0;
@@ -786,22 +783,9 @@ button.bg-download:focus {
     top: 4%;
 }
 
-.flipx {
-    /* -moz-transform:scaleX(-1);
-    -webkit-transform:scaleX(-1);
-    -o-transform:scaleX(-1);
-    transform:scaleX(-1); */
-    /*IE*/
-    /* filter:FlipH; */
-}
-
-.flipy {
-    /* transform: rotateX(180deg); */
-    /* -moz-transform:scaleY(-1);
-    -webkit-transform:scaleY(-1);
-    -o-transform:scaleY(-1);
-    transform:scaleY(-1); */
-    /*IE*/
-    /* filter:FlipV; */
+@media (max-width: 991px) {
+    .contactUsMd {
+        top: 60px;
+    }
 }
 /* contactUsMd end */
