@@ -730,3 +730,78 @@ button.bg-download:focus {
     }
 }
 /* home-productMd end */
+
+/* contactUsMd start */
+.contactUsMd {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    overflow: hidden;
+}
+
+.contactUsMd .contactUs-box {
+    margin-right: -260px;
+    position: relative;
+    z-index: 2000;
+    transition-duration: 0.8s;
+}
+
+.contactUsMd .contactUs-box.show {
+    margin-right: 0;
+}
+
+.contactUsMd .contactUs-box  .contactus-icon {
+    /* background-color: #1ab394; */
+    position: absolute;
+    /* padding: 7px 10px 7px 13px; */
+    /* border-radius: 20px 0 0 20px; */
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+
+.contactUsMd .contactUs-box .sendMessage-form {
+    width: 260px;
+    margin-left: 40px;
+    padding: 1.5rem 1rem 2rem;
+    background-color: #f3f3f4;
+    position: relative;
+}
+
+.contactUsMd .contactUs-box .sendMessage-form p.dep {
+    font-size: 0.5rem;
+}
+
+.contactUsMd .contactUs-box .sendMessage-form .skype-icon {
+    color: #00aff0;
+    position: absolute;
+    right: 20%;
+    top: 4%;
+}
+
+.flipx {
+    /* -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1); */
+    /*IE*/
+    /* filter:FlipH; */
+}
+
+.flipy {
+    /* transform: rotateX(180deg); */
+    /* -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1); */
+    /*IE*/
+    /* filter:FlipV; */
+}
+/* contactUsMd end */

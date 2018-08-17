@@ -42,5 +42,6 @@
     </div>
 </footer>
 <!-- footer end -->
+<?php require_once('home/contact_us.php'); ?>
 </body>
 </html>

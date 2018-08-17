@@ -79,7 +79,7 @@ require_once('layout/title.php');
                     </div>
                     <div class="form-row">
                         <div class="col">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="諮詢內容*"></textarea>
+                            <textarea class="form-control" rows="5" placeholder="諮詢內容*"></textarea>
                         </div>
                     </div>
                     <div class="btns text-center">
