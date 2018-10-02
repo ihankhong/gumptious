@@ -3,7 +3,7 @@ $nav = [
 	['title' => '關於鼎億', 'link' => 'company.php'],
 	['title' => '產品介紹', 'link' => 'product.php'],
 	['title' => '型錄下載', 'link' => 'download.php'],
-	['title' => '獨特下載', 'link' => '#'],
+	['title' => '獨特服務', 'link' => 'unique_service.php?step=1'],
 	['title' => '減速機學堂', 'link' => 'question.php'],
 	['title' => '聯絡我們', 'link' => 'contact_us.php'],
 ];
