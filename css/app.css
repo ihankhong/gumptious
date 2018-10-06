@@ -810,4 +810,10 @@ button.bg-download:focus {
     background-color: #fff;
     border: 1px solid #f2f2f2;
 }
+
+@media (min-width: 768px) {
+    .uniqueServiceStepWrapper .us-step2 > .form-row:first-of-type .col-md-4 {
+        margin-top: 0 !important;
+    }
+}
 /* unique service end */
