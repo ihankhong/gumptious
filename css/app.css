@@ -789,3 +789,25 @@ button.bg-download:focus {
     }
 }
 /* contactUsMd end */
+
+/* unique service start */
+.uniqueServiceStepWrapper {
+    padding: 2rem;
+    margin-top: 1.25rem;
+    background-color: #f8f8f8;
+}
+
+.uniqueServiceStepWrapper .applicable-area {
+    display: none;
+}
+
+.uniqueServiceStepWrapper .applicable-area.show {
+    display: block;
+}
+
+.uniqueServiceStepWrapper .applicable-area .item-title {
+    padding: 0.25rem 0.5rem;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+}
+/* unique service end */
