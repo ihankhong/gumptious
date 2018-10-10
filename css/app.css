@@ -910,3 +910,58 @@ button.bg-black:focus {
     }
 }
 /* unique service end */
+
+/* order start */
+.orderWrapper {
+    padding: 2rem;
+    margin-top: 1.25rem;
+    background-color: #f8f8f8;
+}
+
+.orderWrapper .title {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #212529;
+}
+
+.orderWrapper .productWrapper {
+    padding: 0 1rem 1rem;
+    margin-top: 1.25rem;
+    background-color: #fff;
+}
+
+.orderWrapper .productWrapper .table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.orderWrapper .productWrapper .table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+.orderWrapper .productWrapper .table thead th {
+    border-top: none;
+    border-bottom: 1px solid #212529;
+}
+
+.orderWrapper .productWrapper .table tbody {
+    border-bottom: 1px solid #212529;
+}
+
+.orderWrapper .productWrapper .table-summary tbody {
+    border-bottom: 1px solid #212529;
+}
+
+.orderWrapper .productWrapper .table-summary tfoot {
+    font-size: 1.3rem;
+}
+
+.orderWrapper .productWrapper .table-summary tbody td,
+.orderWrapper .productWrapper .table-summary tfoot td {
+    padding: .5rem;
+}
+
+@media (min-width: 992px) {
+    .orderWrapper .productWrapper .table-summary {
+        width: 30%;
+    }
+}
+/* order end */
