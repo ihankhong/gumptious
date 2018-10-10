@@ -1,4 +1,4 @@
-<form action="../unique_service.php?step=3" method="post" class="needs-validation us-step2" novalidate>
+<form action="../unique_service.php?step=31" method="post" class="needs-validation us-step2" novalidate>
     <h3>載具資訊</h3>
     <div class="form-row">
         <div class="col-md-4 mt-3">
@@ -37,12 +37,12 @@
     <div class="form-row">
         <div class="col-md-4 mt-3">
             <label for="validationUnique07">7. 摩擦係數(MM)</label>
-            <input type="text" class="form-control" id="validationUnique07" placeholder="MM" required>
+            <input type="text" class="form-control" id="validationUnique07" placeholder="MM" value="0.33" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
             <label for="validationUnique08">8. 加速/減速時間(MM/MIN)</label>
-            <input type="text" class="form-control" id="validationUnique08" placeholder="MM/MIN" required>
+            <input type="text" class="form-control" id="validationUnique08" placeholder="MM/MIN" value="0.3" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">

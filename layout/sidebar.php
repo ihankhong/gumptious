@@ -2,7 +2,7 @@
 <nav id="sidebar">
     <!-- Sidebar Header -->
     <div class="sidebar-header">
-        <h4><img src="image/sidebar-title.png" class="img-fluid icon" alt="Sidebar Title icon"><?php echo $sidebar['title']; ?></h4>
+        <h4><img src="image/sidebar-title.png" class="img-fluid icon-right" alt="Sidebar Title icon"><?php echo $sidebar['title']; ?></h4>
     </div>
 
     <!-- Sidebar Links -->
@@ -13,7 +13,7 @@
                 $active = 'active';
             endif; ?>
             <li class="nav-item">
-                <a href="<?php echo $item['link']; ?>" class="nav-link pl-0 <?php echo $active; ?>"><img src="image/sidebar-item<?php echo $active; ?>.png" class="img-fluid icon" alt="Sidebar Item icon"><?php echo $item['title']; ?></a>
+                <a href="<?php echo $item['link']; ?>" class="nav-link pl-0 <?php echo $active; ?>"><img src="image/sidebar-item<?php echo $active; ?>.png" class="img-fluid icon-right" alt="Sidebar Item icon"><?php echo $item['title']; ?></a>
             </li>
         <?php endforeach; ?>
         <!-- <li class="active"><a href="#">Home</a></li>

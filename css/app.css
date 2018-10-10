@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-.icon {
+.icon-right {
     padding-right: 1rem;
+}
+
+.icon-left {
+    padding-left: 1rem;
 }
 
 .bg-download {
@@ -16,6 +20,19 @@
 .bg-submit {
     color: #fff;
     background-color: #2b5e50;
+}
+
+.bg-black {
+    color: #fff;
+    background-color: #212529;
+}
+
+sub {
+    bottom: 0.2rem;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #212529;
 }
 
 /* content start */
@@ -809,6 +826,82 @@ button.bg-download:focus {
     padding: 0.25rem 0.5rem;
     background-color: #fff;
     border: 1px solid #f2f2f2;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper .info-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper .text-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #212529;
+    background-clip: padding-box;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper .info-group > .text-control {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper .info-group-append {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.uniqueServiceStepWrapper .uniqueInfoWrapper .info-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.uniqueServiceStepWrapper .title {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #212529;
+}
+
+.uniqueServiceStepWrapper .serviceWrapper .btn-link:hover,
+.uniqueServiceStepWrapper .serviceWrapper .btn-link:focus,
+.uniqueServiceStepWrapper .reducerWrapper .btn-order:hover,
+.uniqueServiceStepWrapper .reducerWrapper .btn-order:focus{
+    color: #2b5e50;
+    text-decoration: underline;
+    background-color: transparent;
+    border: 2px solid #2b5e50;
+}
+
+a.bg-black:hover,
+a.bg-black:focus,
+button.bg-black:hover,
+button.bg-black:focus {
+    color: #2b5e50;
+    background-color: #f8f8f8 !important;
+    border-color: #112923 !important;
+    border-width: 2px;
 }
 
 @media (min-width: 768px) {

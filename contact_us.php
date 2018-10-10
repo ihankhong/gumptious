@@ -92,7 +92,7 @@ require_once('layout/title.php');
                 <div class="row">
                     <div class="col-md-6">
                         <div class="addressWrapper">
-                            <h5 class="company"><img src="image/contact-company-title.png" class="img-fluid icon mb-1" alt="Contact Title Icon">台中總公司</h5>
+                            <h5 class="company"><img src="image/contact-company-title.png" class="img-fluid icon-right mb-1" alt="Contact Title Icon">台中總公司</h5>
                             <p>地址：41280 台中市大里區工業九路8號</p>
                             <p>電話：04-24919100</p>
                             <p>傳真：04-24919155</p>
@@ -104,7 +104,7 @@ require_once('layout/title.php');
                     </div>
                     <div class="col-md-6">
                         <div class="addressWrapper">
-                            <h5 class="company"><img src="image/contact-company-title.png" class="img-fluid icon mb-1" alt="Contact Title Icon">台中總公司</h5>
+                            <h5 class="company"><img src="image/contact-company-title.png" class="img-fluid icon-right mb-1" alt="Contact Title Icon">台中總公司</h5>
                             <p>地址：36100 廈門市思明區高雄路20號匹克運營中心8層07單位</p>
                             <p>電話：+86-592-5931017</p>
                             <p>傳真：+86-592-5992101</p>

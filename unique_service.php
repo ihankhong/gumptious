@@ -20,10 +20,25 @@ $step = isset($_GET['step']) ? $_GET['step'] : 1;
     <div class="wrapper">
         <!-- content start -->
         <div class="content">
-            <img src="image/page/uniqueservice/step<?php echo $step?>.png" class="img-fluid" alt="Unique Service Step">
+            <img src="image/page/uniqueservice/step<?php echo $step == 31 || $step == 32 ? 3 : $step?>.png"
+                 class="img-fluid mx-auto d-block"
+                 alt="Unique Service Step">
             <div class="uniqueServiceStepWrapper">
                 <?php
-                require_once('unique/step' . $step . '.php');
+                switch ($step) {
+                    case 31:
+                        $fileName = 'step3_service';
+                        break;
+                    case 32:
+                        $fileName = 'step3_reducer';
+                        break;
+
+                    default:
+                        $fileName = 'step' . $step;
+                        break;
+                }
+
+                require_once('unique/' . $fileName . '.php');
                 ?>
             </div>
         </div>
