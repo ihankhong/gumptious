@@ -11,20 +11,21 @@ $breadcrumb = [
 ];
 require_once('layout/breadcrumb.php');
 
-$title = ['title' => '訂購資訊', 'subtitle' => 'Order Info'];
-require_once('layout/title.php');
-
 $order = isset($_GET['order']) ? $_GET['order'] : 'info';
+if ($order === 'info') {
+    $title = ['title' => '訂購資訊', 'subtitle' => 'Order Info'];
+} else {
+    $title = ['title' => '訂購明細', 'subtitle' => 'Order Detail'];
+}
+require_once('layout/title.php');
 ?>
     <!-- content wrapper start -->
     <div class="wrapper">
         <!-- content start -->
         <div class="content">
-            <div class="orderWrapper">
-                <?php
-                require_once('order/' . $order . '.php');
-                ?>
-            </div>
+            <?php
+            require_once('order/' . $order . '.php');
+            ?>
         </div>
         <!-- content end -->
     </div>

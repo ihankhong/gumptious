@@ -964,4 +964,35 @@ button.bg-black:focus {
         width: 30%;
     }
 }
+
+.orderWrapper .orderDetailWrapper .lg-title {
+    font-size: 1.75rem;
+}
+
+.orderWrapper .orderDetailWrapper .table thead th {
+    border-top: none;
+    border-bottom: 1px solid #212529;
+}
+
+.orderWrapper .orderDetailWrapper .table tbody {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.orderWrapper .orderDetailWrapper .table-product-detail tfoot td {
+    border-top: none;
+}
+
+.orderWrapper .orderDetailWrapper .table-product-detail tfoot .order-summary td {
+    border-top: 1px solid #212529;
+}
+
+a.bg-submit:hover,
+a.bg-submit:focus,
+button.bg-submit:hover,
+button.bg-submit:focus {
+    color: #2b5e50;
+    background-color: #f8f8f8 !important;
+    border-color: #2b5e50 !important;
+    border-width: 2px;
+}
 /* order end */
