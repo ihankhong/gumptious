@@ -1,5 +1,5 @@
 <form action="../unique_service.php?step=2" method="post">
-    <h3>運動方向</h3>
+    <h3 class="mt-2">運動方向</h3>
     <div class="form-row">
         <div class="col-sm-6">
             <select name="items" class="form-control">

@@ -1,45 +1,45 @@
 <div class="orderWrapper">
     <form action="../order.php?order=detail" method="post" class="needs-validation" novalidate>
-        <h3 class="title">訂購人資訊</h3>
+        <h3 class="title mt-2">訂購人資訊</h3>
         <div class="form-group row">
-            <label for="validationOrder01" class="col-sm-2 col-form-label">姓名</label>
-            <div class="col-sm-10">
+            <label for="validationOrder01" class="col-md-2 col-form-label">姓名</label>
+            <div class="col-md-10">
                 <input type="text" class="form-control" id="validationOrder01" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>
         </div>
         <div class="form-group row">
-            <label for="validationOrder02" class="col-sm-2 col-form-label">聯絡電話</label>
-            <div class="col-sm-10">
+            <label for="validationOrder02" class="col-md-2 col-form-label">聯絡電話</label>
+            <div class="col-md-10">
                 <input type="text" class="form-control" id="validationOrder02" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>
         </div>
         <div class="form-group row">
-            <label for="validationOrder03" class="col-sm-2 col-form-label">E-mail</label>
-            <div class="col-sm-10">
+            <label for="validationOrder03" class="col-md-2 col-form-label">E-mail</label>
+            <div class="col-md-10">
                 <input type="email" class="form-control" id="validationOrder03" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>
         </div>
         <div class="form-group row">
-            <label for="validationOrder04" class="col-sm-2 col-form-label">送貨地址</label>
-            <div class="col-sm-10">
+            <label for="validationOrder04" class="col-md-2 col-form-label">送貨地址</label>
+            <div class="col-md-10">
                 <input type="text" class="form-control" id="validationOrder04" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>
         </div>
         <div class="form-group row">
-            <label for="validationOrder05" class="col-sm-2 col-form-label">公司名稱</label>
-            <div class="col-sm-10">
+            <label for="validationOrder05" class="col-md-2 col-form-label">公司名稱</label>
+            <div class="col-md-10">
                 <input type="text" class="form-control" id="validationOrder05" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>
         </div>
         <h3 class="title mt-5">發票資訊</h3>
         <div class="form-group row">
-            <label for="validationOrder06" class="col-sm-2 col-form-label">統一編號</label>
-            <div class="col-sm-10">
+            <label for="validationOrder06" class="col-md-2 col-form-label">統一編號</label>
+            <div class="col-md-10">
                 <input type="text" class="form-control" id="validationOrder06" placeholder="" required>
                 <div class="invalid-feedback">請輸入正確數值</div>
             </div>

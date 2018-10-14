@@ -1,52 +1,52 @@
 <form action="../unique_service.php?step=31" method="post" class="needs-validation us-step2" novalidate>
-    <h3>載具資訊</h3>
+    <h3 class="mt-2">載具資訊</h3>
     <div class="form-row">
         <div class="col-md-4 mt-3">
-            <label for="validationUnique01">1. 附載重量(KG)</label>
-            <input type="text" class="form-control" id="validationUnique01" placeholder="KG" required>
+            <label for="validationUnique01">1. 附載重量(KG)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique01" placeholder="KG" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique02">2. 導距/節距(MM)</label>
-            <input type="text" class="form-control" id="validationUnique02" placeholder="MM" required>
+            <label for="validationUnique02">2. 導距/節距(MM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique02" placeholder="MM" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique03">3. 螺桿長(MM)</label>
-            <input type="text" class="form-control" id="validationUnique03" placeholder="MM" required>
+            <label for="validationUnique03">3. 螺桿長(MM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique03" placeholder="MM" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
     </div>
     <div class="form-row">
         <div class="col-md-4 mt-3">
-            <label for="validationUnique04">4. 螺桿直徑(MM)</label>
-            <input type="text" class="form-control" id="validationUnique04" placeholder="MM" required>
+            <label for="validationUnique04">4. 螺桿直徑(MM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique04" placeholder="MM" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique05">5. 上升速度(MM/MIN)</label>
-            <input type="text" class="form-control" id="validationUnique05" placeholder="MM/MIN" required>
+            <label for="validationUnique05">5. 上升速度(MM/MIN)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique05" placeholder="MM/MIN" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique06">6. 選擇馬達(MM)</label>
-            <input type="text" class="form-control" id="validationUnique06" placeholder="MM" required>
+            <label for="validationUnique06">6. 選擇馬達(MM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique06" placeholder="MM" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
     </div>
     <div class="form-row">
         <div class="col-md-4 mt-3">
-            <label for="validationUnique07">7. 摩擦係數(MM)</label>
-            <input type="text" class="form-control" id="validationUnique07" placeholder="MM" value="0.33" required>
+            <label for="validationUnique07">7. 摩擦係數(MM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique07" placeholder="MM" maxlength="4" value="0.33" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique08">8. 加速/減速時間(MM/MIN)</label>
-            <input type="text" class="form-control" id="validationUnique08" placeholder="MM/MIN" value="0.3" required>
+            <label for="validationUnique08">8. 加速/減速時間(MM/MIN)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique08" placeholder="MM/MIN" maxlength="4" value="0.3" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
         <div class="col-md-4 mt-3">
-            <label for="validationUnique09">9. 選擇馬達</label>
+            <label for="validationUnique09">9. 選擇馬達<span class="text-danger ml-1">*</span></label>
             <select class="form-control" id="validationUnique09" required>
                 <option value="">-----請選擇-----</option>
                 <option value="100W">100W</option>
@@ -61,8 +61,8 @@
     </div>
     <div class="form-row">
         <div class="col-md-4 mt-3">
-            <label for="validationUnique10">10. 電機額定轉速(RPM)</label>
-            <input type="text" class="form-control" id="validationUnique10" placeholder="RPM" required>
+            <label for="validationUnique10">10. 電機額定轉速(RPM)<span class="text-danger ml-1">*</span></label>
+            <input type="text" class="form-control" id="validationUnique10" placeholder="RPM" maxlength="4" required>
             <div class="invalid-feedback">請輸入數值</div>
         </div>
     </div>

@@ -908,6 +908,53 @@ button.bg-black:focus {
     .uniqueServiceStepWrapper .us-step2 > .form-row:first-of-type .col-md-4 {
         margin-top: 0 !important;
     }
+
+    .uniqueServiceStepWrapper .reducerWrapper .btns button:first-child {
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 520px) {
+    .uniqueServiceStepWrapper .serviceWrapper .btns a:first-child {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 519px) {
+    .uniqueServiceStepWrapper .serviceWrapper .btns a {
+        display: block;
+    }
+
+    .uniqueServiceStepWrapper .serviceWrapper .btns a:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .uniqueServiceStepWrapper .reducerWrapper .btns button {
+        display: block;
+        width: 100%;
+    }
+
+    .uniqueServiceStepWrapper .reducerWrapper .btns button:first-child {
+        margin-right: 0!important;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .uniqueServiceStepWrapper,
+    .uniqueServiceStepWrapper .uniqueInfoWrapper{
+        padding: 1rem;
+    }
+
+    .uniqueServiceStepWrapper .reducerWrapper .btns {
+        text-align: center;
+    }
+
+    .uniqueServiceStepWrapper .reducerWrapper .btns button:first-child {
+        margin-right: 1rem;
+    }
 }
 /* unique service end */
 
@@ -959,12 +1006,6 @@ button.bg-black:focus {
     padding: .5rem;
 }
 
-@media (min-width: 992px) {
-    .orderWrapper .productWrapper .table-summary {
-        width: 30%;
-    }
-}
-
 .orderWrapper .orderDetailWrapper .lg-title {
     font-size: 1.75rem;
 }
@@ -994,5 +1035,40 @@ button.bg-submit:focus {
     background-color: #f8f8f8 !important;
     border-color: #2b5e50 !important;
     border-width: 2px;
+}
+
+@media (min-width: 992px) {
+    .orderWrapper .productWrapper .table-summary {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) {
+    .orderWrapper .orderDetailWrapper .table-order thead th:first-child {
+        width: 20%;
+    }
+
+    .orderWrapper .orderDetailWrapper .table-product-detail thead th:first-child {
+        width: 58%;
+    }
+}
+
+@media (min-width: 576px) {
+    .orderDetailBtnWrapper .btns a:first-child {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .orderDetailBtnWrapper .btns a {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .orderWrapper {
+        padding: 1rem;
+    }
 }
 /* order end */
